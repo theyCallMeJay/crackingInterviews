@@ -8,7 +8,7 @@ public class Node {
 	
 	public Node(int data){
 		this.data = data;
-		this.next = null;
+		//this.next = null;
 	}
 	
 	public String toString(){
@@ -19,7 +19,10 @@ public class Node {
 		// TODO Auto-generated method stub
 		return this.data;
 	}
-	
+
+	public void setData(int data) {
+		this.data = data;
+	}
 	
 	
 }
