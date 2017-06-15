@@ -1,4 +1,4 @@
-/*1.3
+/*1.3 4th edition
  * 
  * remove duplicated characters from a string*/
 

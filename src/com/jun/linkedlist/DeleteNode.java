@@ -1,4 +1,4 @@
-/*2.3
+/*2.3 4th edition
 implement an algorithm to delete a node,
 given access to that node only
 *

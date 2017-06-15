@@ -1,4 +1,4 @@
-/*2.2
+/*2.2 4th edition
 
 find the nth element till the last element*/
 

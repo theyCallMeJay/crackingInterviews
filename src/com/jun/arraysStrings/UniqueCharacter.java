@@ -1,5 +1,5 @@
 /*
- * 1.1
+ * 1.1 4th edition
  * determine if a string has all unique characters*/
 
 package com.jun.arraysStrings;

@@ -1,10 +1,9 @@
-/*1.4
+/*1.4 4th edition
 decide if two strings are anagram*/
 
 
 package com.jun.arraysStrings;
 
-import javax.naming.ldap.SortControl;
 
 public class DecideAnagram {
 	

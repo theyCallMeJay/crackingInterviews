@@ -1,4 +1,4 @@
-/*1.6
+/*1.6 4th edition
 rotate an image by 90 degrees*/
 
 
