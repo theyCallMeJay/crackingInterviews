@@ -7,7 +7,7 @@ public class RemoveDuplicate {
 		head.next = new LinkedListNode(1);
 		head.next.next = new LinkedListNode(1);
 		head.next.next.next = new LinkedListNode(5);
-		head.next.next.next.next = new LinkedListNode(4);
+		head.next.next.next.next = new LinkedListNode(4)	;
 		LinkedListNode resultList = removeDuplicatedNodes(head);
 		displayList(resultList);
 	}
