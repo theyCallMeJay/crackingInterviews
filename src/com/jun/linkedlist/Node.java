@@ -1,14 +1,14 @@
 package com.jun.linkedlist;
 
 
-public class LinkedListNode {
+public class Node {
 	
 	public int data;
-	public LinkedListNode next;
+	public Node next;
 	
-	public LinkedListNode(int data){
+	public Node(int data){
 		this.data = data;
-		this.next = null;
+		//this.next = null;
 	}
 	
 	public String toString(){
@@ -19,7 +19,10 @@ public class LinkedListNode {
 		// TODO Auto-generated method stub
 		return this.data;
 	}
-	
+
+	public void setData(int data) {
+		this.data = data;
+	}
 	
 	
 }

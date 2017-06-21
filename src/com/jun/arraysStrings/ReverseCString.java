@@ -1,4 +1,4 @@
-/*1.2
+/*1.2 4th edition
 reverse a C-style string
 */
 

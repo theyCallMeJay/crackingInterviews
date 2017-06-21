@@ -3,17 +3,19 @@ package com.jun.linkedlist;
 public class RemoveDuplicate {
 	
 	public static void main(String[] args){
-		LinkedListNode head = new LinkedListNode(1);
-		head.next = new LinkedListNode(1);
-		head.next.next = new LinkedListNode(1);
-		head.next.next.next = new LinkedListNode(5);
-		head.next.next.next.next = new LinkedListNode(4)	;
-		LinkedListNode resultList = removeDuplicatedNodes(head);
+
+		Node head = new Node(1);
+		head.next = new Node(1);
+		head.next.next = new Node(1);
+		head.next.next.next = new Node(5);
+		head.next.next.next.next = new Node(4);
+		Node resultList = removeDuplicatedNodes(head);
+
 		displayList(resultList);
 	}
 	
-	public static void displayList(LinkedListNode head){
-		LinkedListNode current = head;
+	public static void displayList(Node head){
+		Node current = head;
 		
 		while (current.next != null) {
 			System.out.println(current.getData());
@@ -26,11 +28,11 @@ public class RemoveDuplicate {
 	
 	
 	
-	public static LinkedListNode removeDuplicatedNodes(LinkedListNode head){
-		LinkedListNode current = head;
+	public static Node removeDuplicatedNodes(Node head){
+		Node current = head;
 		
 		while (current.next != null) {
-			LinkedListNode runner = current;
+			Node runner = current;
 			while (runner.next != null) {
 				if (runner.next.data == current.data) {
 					runner.next = runner.next.next;
